@@ -54,3 +54,15 @@
 
     }
 }
+
+@media (max-width: 999px) {
+    .portfolio {
+        .text-start {
+            .sub-title {
+                span {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}

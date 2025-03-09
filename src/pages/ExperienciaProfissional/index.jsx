@@ -13,7 +13,7 @@ function ExperienciaProfissional() {
                     começando, sempre aprendendo
                 </p>
                 <h2 className='sub-title'>
-                    Experiênca <br/>
+                    Experiência <br/>
                     <span>Profissional</span>
                 </h2>
             </div>
