@@ -11,9 +11,13 @@ import Contato from '../Contato'
 import Rodape from '../../Components/Rodape'
 import './style.scss'
 import { mobileNavBar } from '../../utils/hellpers'
-
+import { useEffect } from 'react';
 
 function Home() {
+    useEffect(() => {
+        mobileNavBar.init();
+    }, []);
+    
     return (
         <div className='container'>
             <div className="home">

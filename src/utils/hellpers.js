@@ -92,5 +92,3 @@ export const mobileNavBar = new MobileNavBar (
     "#menu",
     "#menu a",
 );
-
-mobileNavBar.init();
