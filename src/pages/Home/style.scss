@@ -128,9 +128,11 @@ section.hero {
     body {
         overflow-x: hidden;
     }
+
     header {
         nav  {
             position: absolute;
+            display: none;
             top: 25vh;
             right: 0;
             width: 100vw;
@@ -163,6 +165,7 @@ section.hero {
 
         #menu.active {
             transform: translateX(0);
+            display: flex;
         }
     } 
 }
