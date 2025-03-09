@@ -1,0 +1,39 @@
+.img-project {
+    position: relative;
+    border: 1px solid var(--dark-gray);
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--dark-gray);
+    cursor: pointer;
+    max-width: 400px;
+
+    h2 {
+        color: white;
+        display: none;
+    }
+
+    .show-text {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 900;
+        padding-right: 1rem;
+        padding-bottom: 8rem;
+    }
+
+    img {
+        width: 100%;
+        height: 380px;
+        border-radius: 1rem;
+        transition: opacity 0.2s;
+
+        &:hover {
+            opacity: 0.1;
+        }
+    }
+}

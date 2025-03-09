@@ -1,0 +1,56 @@
+.portfolio {
+    padding: 0rem 10%;
+    max-width: 2400px;
+    margin: auto;
+    .text-start {
+        display: flex;
+        align-items: end;
+        gap: 5rem;
+        margin-bottom: 5rem;
+        justify-content: left;
+        flex-wrap: wrap;
+        p {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .filter-projects {
+        display: flex;
+        gap: 1.1rem;
+        margin-bottom: 5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .btn-filter {
+            border: none;
+            padding: 1.1rem 1.8rem;
+            border-radius: 1.2rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--primary-color);
+            background-color: #dfdfdf;
+            cursor: pointer;
+            transition: transform 0.2s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .check-btn {
+            background-color: var(--dark-gray);
+            color: white;
+        }
+    }
+    .projects-container {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+
+    }
+}

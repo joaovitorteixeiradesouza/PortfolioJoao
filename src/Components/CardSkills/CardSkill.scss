@@ -1,0 +1,24 @@
+.card-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h3 {
+        color: #445964;
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .level-skill {
+        display: flex;
+        gap: 8px;
+        img {
+            width: 2rem;
+            padding-block: 0;
+        }
+    }
+}
+
