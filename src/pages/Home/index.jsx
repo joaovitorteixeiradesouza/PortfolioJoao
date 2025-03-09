@@ -10,14 +10,31 @@ import ExperienciaProfissional from '../ExperienciaProfissional'
 import Contato from '../Contato'
 import Rodape from '../../Components/Rodape'
 import './style.scss'
-import { mobileNavBar } from '../../utils/hellpers'
-import { useEffect } from 'react';
+import MobileNavBar from '../../utils/hellpers'
+import { useEffect, useState } from 'react';
 
 function Home() {
+    const [menu, setMenu] = useState(null);
+
     useEffect(() => {
-        mobileNavBar.init();
+        // Aguarda o carregamento completo da página para garantir os elementos no DOM
+        const handleLoad = () => {
+            const mobileNav = new MobileNavBar(".mobile-menu", "#menu", "#menu a");
+            mobileNav.init();
+            setMenu(mobileNav);
+        };
+
+        if (document.readyState === "complete") {
+            handleLoad();
+        } else {
+            window.addEventListener("load", handleLoad);
+        }
+
+        return () => {
+            window.removeEventListener("load", handleLoad);
+        };
     }, []);
-    
+
     return (
         <div className='container'>
             <div className="home">

@@ -87,8 +87,4 @@ class MobileNavBar {
     }
 }
 
-export const mobileNavBar = new MobileNavBar (
-    ".mobile-menu",
-    "#menu",
-    "#menu a",
-);
+export default MobileNavBar;
