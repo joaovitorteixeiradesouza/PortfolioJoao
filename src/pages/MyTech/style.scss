@@ -26,6 +26,13 @@
                 gap: 5rem;
                 flex-wrap: wrap;
                 justify-content: center;
+
+                li {
+                    img {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
             }
         }
 

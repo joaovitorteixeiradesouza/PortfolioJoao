@@ -1,5 +1,9 @@
 import './style.scss';
 import HtmlIcon from '../../assets/Html.png';
+import ArduinoIcon from '../../assets/Arduino_Logo.svg';
+import JavaIcon from '../../assets/Icone_Java.webp';
+import CIcone from '../../assets/Icone_C.jfif';
+import VBIcone from '../../assets/Icone_VB.png';
 import CssIcon from '../../assets/Css.png';
 import JavascriptIcon from '../../assets/Javascript_Em_Uso.png';
 import ReactIcon from '../../assets/React.png';
@@ -18,13 +22,13 @@ function MyTech() {
                 <div className="tech-icons">
                     <ul>
                         <li>
-                            <img src={HtmlIcon} />
+                            <img src={ArduinoIcon} />
                         </li>
                         <li>
-                            <img src={CssIcon} />
+                            <img src={JavaIcon} />
                         </li>
                         <li>
-                            <img src={JavascriptIcon} />
+                            <img src={CIcone} />
                         </li>
                     </ul>
                 </div>
@@ -49,7 +53,7 @@ function MyTech() {
                             <img src={JavascriptIcon} />
                         </li>
                         <li>
-                            <img src={ReactIcon} />
+                            <img src={VBIcone} />
                         </li>
                     </ul>
                 </div>

@@ -65,7 +65,7 @@ function Home() {
                             <p>Olá pessoal,</p>
                             <h2>
                                 EU SOU UM<br/>
-                                PROGRAMADOR
+                                DESENVOLVEDOR
                             </h2>
                             <p>Seja bem-vindo ao meu portifólio website</p>
                         </div>

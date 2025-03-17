@@ -10,9 +10,9 @@ function Contato() {
         <div className="contato-container">
             <h1>Meus Contatos</h1>
             <h2>Telefone:</h2>
-            <p><span><FaWhatsapp></FaWhatsapp></span>(11) 93952-9285</p>
+            <p><a href='https://wa.me/qr/HQYIYQXLE7WLP1' target='_blank'><span><FaWhatsapp></FaWhatsapp></span>(11) 93952-9285</a></p>
             <h2>E-mail:</h2>
-            <p><span><BiLogoGmail></BiLogoGmail></span>joaovitorteixeiradesouza4@gmail.com</p>
+            <p><a href='mailto:joaovitorteixeiradesouza4@gmail.com' target='_blank'><span><BiLogoGmail></BiLogoGmail></span>joaovitorteixeiradesouza4@gmail.com</a></p>
             <h2>Redes Sociais:</h2>
             <div className='icons'>
                 <a href="https://github.com/joaovitorteixeiradesouza" target='_blank'><img src={GitIcon} /></a>
